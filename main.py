@@ -9,11 +9,12 @@ def hello():
 @app.route("/data")
 def data():
   data = {
-    name: "Wataru",
-    id: "15",
-    age: "33",
-    _from: "JP"
+    "name": "Wataru",
+    "id": "15",
+    "age": "33",
+    "from": "JP"
   }
+  return jsonify(data)
 
 if __name__ == "__main__":
   app.run(debug=True)
