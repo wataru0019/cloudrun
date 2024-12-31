@@ -1,3 +1,8 @@
 Flask==2.3.0
 Werkzeug==2.3.0
 gunicorn==20.1.0
+yfinance==0.2.51
+langchain-core==0.3.28
+langchain-openai==0.2.14
+langgraph==0.2.60
+python-dotenv==1.0.1
